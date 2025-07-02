@@ -1,0 +1,61 @@
+# Temporary files
+*.tmp
+*.log
+*.swp
+*~
+
+# Output files
+*.txt
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+
+# Reference data (too large for git)
+*.fa
+*.fasta
+*.fa.gz
+*.fasta.gz
+*.fai
+*.chain
+*.chain.gz
+
+# Cache directories
+.vep/
+cache/
+
+# Compiled files
+*.so
+*.o
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# R
+.Rhistory
+.RData
+
+# Logs directory (but keep structure)
+logs/*
+!logs/.gitkeep
+
+# Test outputs
+test_output/
+examples/*_vep_*.txt
+examples/*.gz
+examples/*.tbi
+
+# Keep important files
+!examples/test_snv.vcf
+!config/default_config.sh
