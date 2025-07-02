@@ -204,7 +204,7 @@ If you use VEPforT2T in your research, please cite:
 
 1. **This pipeline:**
    ```
-   Garcia, T.X. (2024). VEPforT2T: Variant Effect Prediction for T2T-CHM13v2.0. 
+   Garcia, T.X. (2025). VEPforT2T: Variant Effect Prediction for T2T-CHM13v2.0. 
    Available at: https://github.com/Thomas-X-Garcia/VEPforT2T
    ```
 
